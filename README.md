@@ -4,7 +4,8 @@ DemoBank serves as a simple banking platform and e-wallet, empowering users to t
 I Dived into this project to get a better grasp on React and Redux. Given it's my first time tackling React, there might be places where the code feels a bit raw or improvised, but it gets the job done.
 On the flip side, I'm better with Spring Boot, and that's what's running the show in the backend. 
 The whole idea is about delivering a variety of banking features, ensuring everything's user-friendly and responsive.
-![Alt text](https://github.com/Gitlinkerr/DemoBank-FullStack/assets/104322153/526175a1-c8e4-430d-99af-7001f5ea706a)
+
+![demobank_gif](https://github.com/Gitlinkerr/DemoBank-FullStack/assets/104322153/e928cd0c-e475-4d46-9194-643ee70f073e)
 
 
 ## Features
