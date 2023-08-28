@@ -4,7 +4,8 @@ DemoBank serves as a simple banking platform and e-wallet, empowering users to t
 I Dived into this project to get a better grasp on React and Redux. Given it's my first time tackling React, there might be places where the code feels a bit raw or improvised, but it gets the job done.
 On the flip side, I'm better with Spring Boot, and that's what's running the show in the backend. 
 The whole idea is about delivering a variety of banking features, ensuring everything's user-friendly and responsive.
-https://github.com/Gitlinkerr/DemoBank-FullStack/assets/104322153/526175a1-c8e4-430d-99af-7001f5ea706a
+![Alt text](https://github.com/Gitlinkerr/DemoBank-FullStack/assets/104322153/526175a1-c8e4-430d-99af-7001f5ea706a)
+
 
 ## Features
 
@@ -29,13 +30,22 @@ https://github.com/Gitlinkerr/DemoBank-FullStack/assets/104322153/526175a1-c8e4-
 - Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
 - Have [Java JDK](https://www.oracle.com/java/technologies/downloads/#java17) and [Maven](https://maven.apache.org/) set up.
 
-## Running the Backend (Spring Boot)
+## Without Docker
 
-1. **Without Docker**:
+1. **Running the Backend (Spring Boot)**: 
    ```bash
    cd backend
-   ./mvnw spring-boot:run```
-2. **With Docker**:
+   ./mvnw spring-boot:run
+   #On Windows: mvnw.cmd spring-boot:run
+   ```
+2. **Running the Frontend (React)**:
+   ```bash
+   cd frontend
+   npm install
+   npm start
+   ```
+
+  ## With Docker
 To run the project using Docker, follow these steps:
 
 ### Prerequisites
@@ -48,11 +58,12 @@ First, you need to clone the repository to your local machine:
    ```bash
    git clone https://github.com/Gitlinkerr/DemoBank-FullStack.git
    cd DemoBank-FullStack
-   docker-compose up --build```
+   docker-compose up --build
+   ```
 
 ## Access the Application
 
-Once the containers are up, you can access:
+Once the containers are up, you can access: 
 -Frontend: Open your browser and navigate to http://localhost:3000 (or the port you specified in docker-compose.yml for the frontend).
 -Backend: Should be running on http://localhost:8080.
  
