@@ -65,6 +65,6 @@ First, you need to clone the repository to your local machine:
 ## Access the Application
 
 Once the containers are up, you can access: 
--Frontend: Open your browser and navigate to http://localhost:3000 (or the port you specified in docker-compose.yml for the frontend).
--Backend: Should be running on http://localhost:8080.
+ -Frontend: Open your browser and navigate to http://localhost:3000 (or the port you specified in docker-compose.yml for the frontend).
+ -Backend: Should be running on http://localhost:8080.
  
