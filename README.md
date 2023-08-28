@@ -7,7 +7,6 @@ The whole idea is about delivering a variety of banking features, ensuring every
 
 ![demobank_gif](demobank_gif.gif)
 
-
 ## Features
 
 - User Registration: New users can sign up for an account.
