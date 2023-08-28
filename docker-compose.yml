@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+
+  mysql:
+    image: mysql:8.0.33
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql
+      MYSQL_DATABASE: demobank
+    ports:
+      - "127.0.0.1:3307:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+  demobank_springboot:
+    image: demobank_springboot_v2:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/demobank
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=mysql
+    depends_on:
+      - mysql
+  demobank_react:
+    image: demobank_react_v2:latest
+    ports:
+      - "3000:3000"
+
+volumes:
+  mysql-data:
