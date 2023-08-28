@@ -6,7 +6,6 @@ On the flip side, I'm better with Spring Boot, and that's what's running the sho
 The whole idea is about delivering a variety of banking features, ensuring everything's user-friendly and responsive.
 
 ![demobank_gif](demobank_gif.gif)
-<img src="demobank_gif.gif" width="600"/>
 
 ## Features
 
